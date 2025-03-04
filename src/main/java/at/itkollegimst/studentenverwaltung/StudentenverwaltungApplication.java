@@ -20,7 +20,7 @@ public class StudentenverwaltungApplication implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		this.dbZugriffStudenten.studentSpeichern(new Student("Claudio Landerer","6460"));
+		this.dbZugriffStudenten.studentSpeichern(new Student("Max Mustermann","6460"));
 		this.dbZugriffStudenten.studentSpeichern(new Student("Günter Hasel","3322"));
 		this.dbZugriffStudenten.studentSpeichern(new Student("Maria Brunsteiner","8080"));
 	}
